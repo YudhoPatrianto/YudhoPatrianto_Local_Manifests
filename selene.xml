@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+ <!-- Remotes -->
+    <remote name="origin"
+            fetch="https://github.com"
+            clone-depth="1" />
+ <!--All Tree For Selene -->
+ <project path="device/xiaomi/selene" name="YudhoPatrianto/android_device_xiaomi_selene" remote="origin" revision="afterlep" />
+ <project path="vendor/xiaomi/selene" name="YudhoPatrianto/android_vendor_xiaomi_selene" remote="origin" revision="13" />
+ <project path="kernel/xiaomi/selene" name="YudhoPatrianto/android_kernel_xiaomi_selene" remote="origin" revision="tiramisu" />
+  
+ <project path="hardware/mediatek" name="YudhoPatrianto/hardware_mediatek" remote="origin" revision="13" />
+ <project path="hardware/xiaomi" name="YudhoPatrianto/android_hardware_xiaomi" remote="origin" revision="13" />
+ <project path="device/mediatek/sepolicy_vndr" name="YudhoPatrianto/device_mediatek_sepolicy_vndr" remote="origin" revision="13" />
+</manifest>
